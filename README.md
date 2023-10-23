@@ -2,7 +2,7 @@
 
 # Planeación (español).
 
-Gestionar la entrada y dar apoyo al personal de seguridad con situaciones para alumnos en estado de ebriedad.
+Gestionar la entrada y dar apoyo al personal de seguridad con situaciones para alumnos en estado de ebriedad que intenten acceder al plantel.
 
 Alcances:
 
@@ -20,7 +20,7 @@ Datasheet: https://www.sparkfun.com/datasheets/Sensors/MQ-3.pdf
 Límitaciones:
 
 - El reporte solo servirá como registro de un intento de acceso a la unidad.
-- Esto no aplica para alumnos de CELEX ni alumnnos de posgrado, solo para los inscritos en licenciatura.
+- Esto no aplica para alumnos de CELEX ni alumnnos de posgrado, solo para los inscritos en licenciatura en la unidad.
 - El sistema solo podrá funcionar en configuraciones con Windows 10 y Windows 11 como sistema operativo.
 
 
@@ -32,7 +32,6 @@ Requerimentos funcionales:
 
 Requerimentos no funcionales:
 
-- Al presentarse la identificación en el lector, se mostrará en pantalla la fotografía del alumno.
 - Al presentarse la identificación en el lector se emitirá un sonido para indicar si se leyó correctamente la tarjeta.
 
 Especificaciones técnicas:
@@ -73,7 +72,6 @@ Functional Requirements:
 
 Non-Functional Requirements:
 
-- When the identification is presented to the reader, the student's photograph will be displayed on the screen.
 - When the identification is presented to the reader, a sound will be emitted to indicate if the card was read correctly.
 
 Technical Specifications:
